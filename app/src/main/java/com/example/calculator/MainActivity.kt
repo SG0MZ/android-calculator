@@ -8,6 +8,8 @@ import android.widget.EditText
 import android.widget.TextView
 import java.lang.NumberFormatException
 
+import kotlinx.android.*
+
 private const val STATE_PENDING_OPERATION = "PendingOperation"
 private const val STATE_OPERAND1 = "Operand1"
 private const val STATE_OPERAND1_STORED = "Operand1_Stored"
